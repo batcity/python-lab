@@ -37,7 +37,7 @@ Each feature has its own folder with a code file and README explaining the conce
 - [Threading](./advanced/threading_examples/README.md)
 - [Concurrent Futures](./advanced/concurrent_futures_examples/README.md)
 - **Locking Mechanisms**
-  - [Lock](./advanced/locking_mechanisms/threading_lock.py)
+  - [Lock (aka mutex)](./advanced/locking_mechanisms/threading_lock.py)
   - [RLock](./advanced/locking_mechanisms/threading_rlock.py)
   - [Event](./advanced/locking_mechanisms/threading_event.py)
   - [Semaphore](./advanced/locking_mechanisms/threading_semaphore.py)
