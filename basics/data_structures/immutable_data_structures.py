@@ -1,6 +1,7 @@
 # here's the list of built in immutable data structures in python
 
 # tuples
+# Note: tuple is immutable but it can contain mutable objects
 tuple_example = (1, 2, 3)
 
 try:
@@ -24,3 +25,14 @@ print("memory address of the original string:", id(word))   # memory address (id
 
 word = word + " world"
 print("memory address of the modified string:", id(word))   # different address
+
+# bytes
+bytes_example = b"test"
+
+print(list(bytes_example))
+print(bytes_example[0])
+
+try:
+    bytes_example[0] = 114
+except TypeError as e:
+    print(e)
