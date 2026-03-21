@@ -10,14 +10,13 @@ requests.get("https://www.google.com")
 end = time.time()
 print("time taken to hit google three times consecutively: ", end - start)
 
-# Now do the same thing as before but asynchronously so that it's quicker
+# Now this method does the same thing as before but asynchronously so that it's quicker
 async def fetch_web_page_asynchronously():
     async with httpx.AsyncClient() as client:
         # create a list of coroutines/tasks
         # there's three tasks that fetch google.com
         tasks = [client.get("https://www.google.com") for _ in range(3)]
         
-        # TODO: figure out what await actually means -> it's different compared to join threads in java
         responses = await asyncio.gather(*tasks)
         
         for i, response in enumerate(responses):
