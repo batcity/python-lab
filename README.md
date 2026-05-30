@@ -9,9 +9,11 @@ Each feature has its own folder with a code file and README explaining the conce
 - [Classes](./classes/README.md)
 - [Modules and Packages](./modules_and_packages/README.md)
 
+### Python 3.5
+- [Async / Await](./python3.5/async_await/README.md)
+
 ### Python 3.6
 - [f-Strings](./python3.6/fstrings/README.md)
-- [Async / Await](./python3.6/async_await/README.md)
 
 ### Python 3.7
 - [Dataclasses](./python3.7/dataclasses/README.md)
@@ -43,7 +45,6 @@ Each feature has its own folder with a code file and README explaining the conce
   - [Semaphore](./advanced/locking_mechanisms/threading_semaphore.py)
   - [Condition](./advanced/locking_mechanisms/threading_condition.py)
 
----
 
 ## How to Use
 1. Navigate to a feature folder.  
