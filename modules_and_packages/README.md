@@ -2,8 +2,6 @@
 
 Modules and packages are fundamental in Python for **organizing code, reusing functionality, and maintaining large projects**.
 
----
-
 ## What Are Modules?
 
 A **module** is any Python file (`.py`) that contains code—functions, classes, or variables—that can be imported and reused in other Python programs.  
